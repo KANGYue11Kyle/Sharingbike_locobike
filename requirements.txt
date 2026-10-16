@@ -1,0 +1,11 @@
+fastapi==0.104.1
+uvicorn==0.24.0.post1
+pydantic==2.14.1
+anyio==3.7.1
+click==8.1.8
+pyyaml==6.0.3
+websockets==15.0.1
+colorama==0.4.6
+httptools==0.1.0
+python-multipart==0.0.6
+typing-extensions==4.15.0
