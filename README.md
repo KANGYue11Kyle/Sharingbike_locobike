@@ -1,5 +1,4 @@
 # Sharingbike_locobike
-# Sharingbike_locobike
 
 香港 Locobike 共享单车 FastAPI 接口项目。
 
