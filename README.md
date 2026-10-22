@@ -1,57 +1,57 @@
 # Sharingbike_locobike
 
-香港 Locobike 共享单车 FastAPI 接口项目。
+A FastAPI-based interface project for Locobike shared bicycles in Hong Kong.
 
-## 📖 项目简介
+## 📖 Project Overview
 
-基于 [FastAPI](https://fastapi.tiangolo.com/) 搭建的轻量 REST 接口服务，提供香港地区 Locobike 单车**点位查询**与**实时可用车辆数获取**功能，并支持自动生成交互式接口文档（Swagger UI）。
+A lightweight REST API service built on [FastAPI](https://fastapi.tiangolo.com/), providing **station location queries** and **real-time available vehicle count retrieval** for Locobike bicycles in Hong Kong, with support for automatically generated interactive API documentation (Swagger UI).
 
-## ✨ 功能特性
+## ✨ Features
 
-- 🚲 查询香港地区 Locobike 单车点位
-- 📊 获取实时可用车辆数
-- 📄 自动生成交互式接口文档（`/docs`）
-- ⚡ 基于 FastAPI，轻量、高性能、易扩展
+- 🚲 Query Locobike bicycle station locations in Hong Kong
+- 📊 Retrieve real-time available vehicle counts
+- 📄 Automatically generated interactive API documentation (`/docs`)
+- ⚡ Built on FastAPI: lightweight, high-performance, and easy to extend
 
-## 🚀 快速启动
+## 🚀 Quick Start
 
-### 1. 安装依赖
+### 1. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. 启动服务
+### 2. Start the Service
 
 ```bash
 uvicorn main:app --reload
 ```
 
-### 3. 调试接口
+### 3. Debug the API
 
-打开浏览器访问：
+Open your browser and visit:
 
 ```
 http://127.0.0.1:8000/docs
 ```
 
-即可在线调试所有接口。
+You can then debug all endpoints online.
 
-## 📁 仓库说明
+## 📁 Repository Description
 
-| 项目 | 说明 |
+| Item | Description |
 | --- | --- |
-| 虚拟环境 | 已排除本地虚拟环境的 `Scripts`、`include` 目录，避免冗余文件占用仓库体积 |
-| `requirements.txt` | 记录项目所有第三方依赖，保证跨环境复现一致 |
-| 根目录 | 核心 API 逻辑与配置文件保留在根目录，结构清晰易修改 |
+| Virtual environment | The `Scripts` and `include` directories of the local virtual environment have been excluded to avoid redundant files consuming repository space |
+| `requirements.txt` | Records all third-party dependencies of the project to ensure consistent reproducibility across environments |
+| Root directory | Core API logic and configuration files are kept in the root directory, making the structure clear and easy to modify |
 
-## 🛠 技术栈
+## 🛠 Tech Stack
 
-- **框架**：FastAPI
-- **服务**：Uvicorn
-- **文档**：Swagger UI（自动生成）
+- **Framework**: FastAPI
+- **Server**: Uvicorn
+- **Documentation**: Swagger UI (auto-generated)
 
 
-## 🙏 致谢
+## 🙏 Acknowledgements
 
 locobike
